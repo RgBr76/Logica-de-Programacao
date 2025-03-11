@@ -1,0 +1,5 @@
+Const - constante é algo fixo, não muda
+Variável - Pode ser alterada durante a programação
+
+(Constante)
+(Variáveis)
