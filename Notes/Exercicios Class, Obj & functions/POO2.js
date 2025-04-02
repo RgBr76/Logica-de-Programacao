@@ -24,8 +24,14 @@ class Brinquedo{
 
 }
 
-const brinquedo1 = new Brinquedo("Carrinho", "Veículo", 25.50)
-const brinquedo2 = new Brinquedo("Boneca", "Figura de Ação", 30.00)
+const brinquedo1 = [
+  { nome: 'Carrinho', tipo: 'Veículo', preco: 25.5 },
+  { nome: 'Boneca', tipo: 'Figura de Ação', preco: 30 }
+];
+
+console.log(brinquedo1)
+
+
 
 brinquedo1.exibirInformacoesBrinquedo()
 
